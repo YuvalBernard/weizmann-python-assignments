@@ -1,1 +1,2 @@
-# weizmann-python-assignments
+# Weizmann Python Assignments
+A simple repository containing homework solutions.

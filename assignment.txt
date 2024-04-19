@@ -1,0 +1,7 @@
+Write a python program that is a number guessing game:
+
+* The computer "thinks" about a whole number between 1 and 20
+* The user guesses
+* The computer tells if the guess was too small, too big or exact.
+* If exact the user wins, the program ends. Otherwise the user can guess again.
+* At the end of the game print out how many guesses the user needed.

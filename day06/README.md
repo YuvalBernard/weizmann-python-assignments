@@ -4,3 +4,5 @@ For each parameter, it calculates the mean and std of a Normal distribution,
 assuming lower and upper bounds correspond to the 95% quantiles of the distribution.
 
 Results are also printed.
+
+*Install required packages by running `pip install -r requirements.txt`*

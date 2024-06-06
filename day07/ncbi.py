@@ -41,3 +41,6 @@ def main():
     term = sys.argv[1]
     count = int(sys.argv[2])
     download_from_ncbi(term, count)
+
+if __name__ == "__main__":
+    main()

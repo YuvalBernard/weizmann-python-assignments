@@ -20,7 +20,7 @@ def download_from_ncbi(term, number):
     for filename, search_id in zip(filenames, IdList):
         print(f"Fetching data into {filename}...")
         data = Entrez.efetch(db="protein", id=search_id, rettype="gb", retmode="text").read()
-        with open(os.path.join("downloads", filename)) as f:
+        with open(os.path.join("downloads", filename), 'w') as f:
             f.write(data)
 
     with open("search_history.csv", "a", newline="") as file:
@@ -37,7 +37,7 @@ def download_from_ncbi(term, number):
 
 def main():
     if len(sys.argv) != 3:
-        exit(f"Insert term and number to search.")
+        exit(f"Insert name of protein to search on NCBI,\nas well maximum number of matches to search.")
     term = sys.argv[1]
     count = int(sys.argv[2])
     download_from_ncbi(term, count)

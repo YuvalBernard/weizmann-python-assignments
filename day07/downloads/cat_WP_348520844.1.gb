@@ -1,0 +1,72 @@
+LOCUS       WP_348520844             261 aa            linear   BCT 03-JUN-2024
+DEFINITION  UxaA family hydrolase [Alicyclobacillus fastidiosus].
+ACCESSION   WP_348520844
+VERSION     WP_348520844.1
+KEYWORDS    RefSeq.
+SOURCE      Alicyclobacillus fastidiosus
+  ORGANISM  Alicyclobacillus fastidiosus
+            Bacteria; Bacillota; Bacilli; Bacillales; Alicyclobacillaceae;
+            Alicyclobacillus.
+REFERENCE   1  (residues 1 to 261)
+  AUTHORS   Rosas-Lemus,M., Minasov,G., Shuvalova,L., Wawrzak,Z.,
+            Kiryukhina,O., Mih,N., Jaroszewski,L., Palsson,B., Godzik,A. and
+            Satchell,K.J.F.
+  TITLE     Structure of galactarate dehydratase, a new fold in an enolase
+            involved in bacterial fitness after antibiotic treatment
+  JOURNAL   Protein Sci 29 (3), 711-722 (2020)
+   PUBMED   31811683
+REFERENCE   2  (residues 1 to 261)
+  AUTHORS   Iyer,L.M. and Aravind,L.
+  TITLE     The emergence of catalytic and structural diversity within the
+            beta-clip fold
+  JOURNAL   Proteins 55 (4), 977-991 (2004)
+   PUBMED   15146494
+REFERENCE   3  (residues 1 to 261)
+  AUTHORS   Hubbard,B.K., Koch,M., Palmer,D.R., Babbitt,P.C. and Gerlt,J.A.
+  TITLE     Evolution of enzymatic activities in the enolase superfamily:
+            characterization of the (D)-glucarate/galactarate catabolic pathway
+            in Escherichia coli
+  JOURNAL   Biochemistry 37 (41), 14369-14375 (1998)
+   PUBMED   9772162
+REFERENCE   4  (residues 1 to 261)
+  AUTHORS   Rivolta,C., Soldo,B., Lazarevic,V., Joris,B., Mauel,C. and
+            Karamat,D.
+  TITLE     A 35.7 kb DNA fragment from the Bacillus subtilis chromosome
+            containing a putative 12.3 kb operon involved in hexuronate
+            catabolism and a perfectly symmetrical hypothetical
+            catabolite-responsive element
+  JOURNAL   Microbiology (Reading) 144 (Pt 4), 877-884 (1998)
+   PUBMED   9579062
+REFERENCE   5  (residues 1 to 261)
+  AUTHORS   Dreyer,J.L.
+  TITLE     The role of iron in the activation of mannonic and altronic acid
+            hydratases, two Fe-requiring hydro-lyases
+  JOURNAL   Eur J Biochem 166 (3), 623-630 (1987)
+   PUBMED   3038546
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: NF016203.4
+            Evidence Source    :: EMBL-EBI
+            Source Identifier  :: PF04295.17
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..261
+                     /organism="Alicyclobacillus fastidiosus"
+                     /db_xref="taxon:392011"
+     Protein         1..261
+                     /product="UxaA family hydrolase"
+                     /GO_function="GO:0016829 - lyase activity [Evidence IEA]"
+                     /calculated_mol_wt=27773
+ORIGIN      
+        1 mlidgyvred grigvrnhvl vlpvsyemnq iaekivasap gavtfrnqhg inqagddldq
+       61 tfrvyegfat hpnvygvvil awgheafdln rlvnraraag kqaelvgltq vggirnatak
+      121 gtalasdwlv trdavqrvqv plsrivlgte cggsdacsgi sgnpalgvvs dllvaeggts
+      181 ilsettelig aehllaqraa tpeigqqvih ivhrleenam kmgvdirgaq pspgnmdggi
+      241 ttieekslgc iykgeqrqfk r
+//
+

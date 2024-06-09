@@ -1,0 +1,52 @@
+LOCUS       WP_348521818              53 aa            linear   BCT 03-JUN-2024
+DEFINITION  SMR family transporter, partial [Escherichia coli].
+ACCESSION   WP_348521818
+VERSION     WP_348521818.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 53)
+  AUTHORS   Yerushalmi,H., Lebendiker,M. and Schuldiner,S.
+  TITLE     EmrE, an Escherichia coli 12-kDa multidrug transporter, exchanges
+            toxic cations and H+ and is soluble in organic solvents
+  JOURNAL   J Biol Chem 270 (12), 6856-6863 (1995)
+   PUBMED   7896833
+REFERENCE   2  (residues 1 to 53)
+  AUTHORS   Parent,R. and Roy,P.H.
+  TITLE     The chloramphenicol acetyltransferase gene of Tn2424: a new breed
+            of cat
+  JOURNAL   J Bacteriol 174 (9), 2891-2897 (1992)
+   PUBMED   1314803
+REFERENCE   3  (residues 1 to 53)
+  AUTHORS   Sasatsu,M., Shima,K., Shibata,Y. and Kono,M.
+  TITLE     Nucleotide sequence of a gene that encodes resistance to ethidium
+            bromide from a transferable plasmid in Staphylococcus aureus
+  JOURNAL   Nucleic Acids Res 17 (23), 10103 (1989)
+   PUBMED   2602117
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: NF013089.4
+            Evidence Source    :: EMBL-EBI
+            Source Identifier  :: PF00893.23
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: incomplete on the amino end.
+FEATURES             Location/Qualifiers
+     source          1..53
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         <1..53
+                     /product="SMR family transporter"
+                     /GO_component="GO:0016020 - membrane [Evidence IEA];
+                     GO:0005886 - plasma membrane [Evidence IEA]"
+                     /GO_function="GO:0022857 - transmembrane transporter
+                     activity [Evidence IEA]"
+ORIGIN      
+        1 iayaiwsgvg ivlisllswg ffgqrldlpa vigmmlicag vlvinllsrs tph
+//
+

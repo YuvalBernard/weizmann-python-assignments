@@ -1,5 +1,5 @@
-import pytest
 from helper_functions import get_dist_info
+import pandas as pd
 
 def test_get_dist_info():
     data = pd.read_csv("example.csv")

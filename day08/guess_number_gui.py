@@ -8,7 +8,7 @@ from tkinter import messagebox
     Have a button that will show the currently hidden value in a pop-out dialog.
 
 """
-class MyGUI:
+class GuessNumberGame:
 
     def __init__(self):
         self.root = tk.Tk()
@@ -56,9 +56,6 @@ class MyGUI:
         self.quit_button = tk.Button(self.root, text="Quit", command=self.quit)
         self.quit_button.pack(pady=10)
 
-
-        self.root.mainloop()
-
     def evaluate_guess(self):
         try:
             guess = int(self.user_guess.get())
@@ -98,5 +95,7 @@ class MyGUI:
         self.root.destroy()
 
         
-        
-MyGUI()
+if __name__ == "__main__":
+    game = GuessNumberGame()
+    game.mainloop()
+

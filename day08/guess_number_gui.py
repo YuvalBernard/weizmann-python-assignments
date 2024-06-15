@@ -97,5 +97,5 @@ class GuessNumberGame:
         
 if __name__ == "__main__":
     game = GuessNumberGame()
-    game.mainloop()
+    game.root.mainloop()
 
